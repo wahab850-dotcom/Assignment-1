@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 for and While loops</title>
+</head>
+<body>
+    <script>
+    // 1. Print numbers from 1 to 10
+for (let a = 1; a <= 10; a++) {
+  console.log(a);
+}
+// 2. Print all even numbers from 1 to 20
+for (let b = 1; b <= 20; b++) {
+  if (b % 2 === 0) {
+    console.log(b);
+  }
+}
+// 3. Multiplication table of 5
+for (let c = 1; c <= 10; c++) {
+  console.log("5 x " + c + " = " + (5 * c));
+}
+// 4. Sum of numbers from 1 to 50
+let sum4 = 0;
+for (let e = 1; e <= 50; e++) {
+  sum4 += e;
+}
+console.log(sum4);
+// 5. Print numbers in reverse (10 to 1)
+for (let f = 10; f >= 1; f--) {
+  console.log(f);
+}
+// While Loop Tasks
+// 1. Print numbers from 1 to 10
+let i = 1;
+
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
+// 2. Print odd numbers from 1 to 20
+let j = 1;
+
+while (j <= 20) {
+  if (j % 2 !== 0) {
+    console.log(j);
+  }
+  j++;
+}
+// 3. Sum of numbers from 1 to 100
+let k = 1;
+let sum = 0;
+
+while (k <= 100) {
+  sum += k;
+  k++;
+}
+
+console.log("Sum:", sum);
+// 4. Print numbers in reverse (10 to 1)
+let m = 10;
+
+while (m >= 1) {
+  console.log(m);
+  m--;
+}
+// 5. Password checker (admin123)
+let password = "";
+
+while (password !== "admin123") {
+  password = prompt("Enter password:");
+}
+
+console.log("Access granted!");
+</script>
+</body>
+</html>
